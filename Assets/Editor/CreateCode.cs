@@ -107,7 +107,7 @@ public class CreateCode : MonoBehaviour
             return "";
         }
 
-        string fileFullPath = filepath + "/" + classname + "_Partical.cs";
+        string fileFullPath = filepath + "/" + classname + "_Partial.cs";
         FileStream fileStream = null;
         if (!File.Exists(fileFullPath))
         {

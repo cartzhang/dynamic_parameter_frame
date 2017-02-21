@@ -20,6 +20,10 @@
 2.控制台命令行输入提示，根据需要提示和回滚之前的输入信息。
 
 
+关于工程的一些说明：
+
+http://blog.csdn.net/cartzhang/article/details/56292977
+
 更多控制台的输入项目工程地址和说明：
 
 https://github.com/cartzhang/UnityConsoleWindow

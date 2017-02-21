@@ -1,4 +1,4 @@
-// H:/Unity/Project/TestConsoleWindow/UnityConsoleWindow/Assets/Scripts/PartialClass
+// H:/Unity/Project/DynamicParaFrame/Assets/Scripts/PartialClass
 // MoveAttriTest
 // @cartzhang 
 

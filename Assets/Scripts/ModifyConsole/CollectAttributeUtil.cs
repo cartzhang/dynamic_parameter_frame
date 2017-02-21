@@ -32,7 +32,7 @@ public class CollectAttributeUtil
     public static bool IsVarialbeInList(string classname,string classname_variableName, out string valuetype)
     {
         bool bresult = false;
-        string tmpclassName = classname.ToUpper();
+        string tmpclassName = classname;
         Debug.Assert(!string.IsNullOrEmpty(tmpclassName));
         Debug.Assert(!string.IsNullOrEmpty(classname_variableName));
         valuetype = null;
@@ -105,7 +105,7 @@ public class CollectAttributeUtil
             var objs = field.GetCustomAttributes(typeof(T), false);
             if (objs.Length > 0)
             {
-                string keyTmp = type.FullName.ToUpper();
+                string keyTmp = type.FullName;
                 AttributeForClass attri4Class = new AttributeForClass();
                 attri4Class.class_variable = (type.FullName + "#" + field.Name);
                 attri4Class.variable_type = field.FieldType;

@@ -14,8 +14,6 @@ public partial class ControlMove : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {   
-           // auto regist code. @cz
-           Start4AutoSubscribe(); 
         transf = this.transform;
         //string messName = GETNAME(new { this.movespeed });
         //NotificationManager.Instance.Subscribe(messName, ControlMove_movespeed);
