@@ -1,6 +1,7 @@
 # Dynamic modify parameter frame for unity game.
 
-2017-02-21
+
+version 1.0 2017-02-21
 
 工程目标：
 根据之前做的一个控制台的输入，想根据控制台的输入，来控制和修改游戏中的某些参数。
